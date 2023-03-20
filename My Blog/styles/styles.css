@@ -1,0 +1,36 @@
+html {
+    font-size: 20px; /* px 은 'pixels' 를 의미합니다: 기본 글자 크기는 현재 10 pixels 높이입니다. */
+    font-family: 'Oswald', sans-serif;
+  }
+
+body {
+  background-color: white;
+  padding: 30px;
+  border: 10px;
+  margin: 5px;
+}
+
+h1 {
+    font-size: 60px;
+    padding: 20px;
+    border: 10px solid black;
+    margin: 5px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 50px;
+  }
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+ul, ol {
+  font-size: 16px
+}
