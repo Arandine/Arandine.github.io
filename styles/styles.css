@@ -10,11 +10,35 @@ body {
   margin: 5px;
 }
 
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  width: auto;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  text-decoration: underline;
+}
+
+.topnav a.active {
+  font-weight: bold;
+}
+
 h1 {
     font-size: 60px;
     padding: 20px;
     border: 10px solid black;
     margin: 5px;
+    margin-top: 50px;
     text-align: center;
     background-color: white;
     margin-bottom: 50px;
